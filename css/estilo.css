@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{  margin: 0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Playfair Display', serif;}
+
+.menu-list{
+    display: flex;
+}
+   footer{
+    height: 33vh;
+}
+     #menu{
+    width: 100%;
+    position: fixed;
+    height: 5.5vh;
+    background: #fff;
+    z-index: 2;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    
+    }
+    #logo{
+    display: flex;
+    justify-content: center;
+    
+    /*! align-items: flex-start; */
+    /*! position: relative; */
+    /*! bottom: 101px; */
+}
+    .logo{
+        width: 50vw;
+        padding: 10px;
+        position: relative;
+        top: 35px;
+        
+    }
+    .menu-list li{
+        padding: 10px;
+    }
+    .slide-container{
+        margin-top: 30px;
+    }
+    .sobre-mim{
+        height: 90vh;
+        margin-left: 10px;
+    }
+    .sobre-mim-titulo{
+        text-align: center;
+        margin: 25px 0px ;
+    }
+    .sobre-mim-texto{
+        text-align: center;
+        /*! padding: 20px; */
+    }
+    #img-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .sobre-mim-foto{
+        margin: 1px auto 1px auto;
+        width: 80%;
+    }
+    #contatos{
+        text-align: center;
+        padding: 10x 0px 10px 15px;
+        margin: 10px;
+    }
+    .contatos p{
+        padding-top: 10px;
+        font-size: 1.3em;
+}
+    #socialmedia {
+        display: flex;
+        justify-content: space-around;
+    }
+    #instagram{
+        width: 96px;
+    }
+    #email{
+        width: 93px;
+    }
+
+
+@media (min-width: 576px) 
+{
+    .menu-list{
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+        margin-right: 15px;
+    }
+    .menu-list li{
+        padding: 15px;
+        font-size: 1em;
+    }
+    .sobre-mim{
+        height: 70vh;
+        margin-top: 25px;
+    }
+    .sobre-mim-titulo{
+        font-size: 2.5em;
+    }
+     .sobre-mim-texto{
+        text-align: center;
+        font-size: 1.3em;
+        /*! font-weight: 500; */
+        width: 100%;
+        margin-top: 20px;
+        height: 100%;
+    }
+    .sobre-mim-foto{
+        margin: 1px auto 1px auto;
+        width: 75%;
+        /*! height: 100%; */
+    }
+    #img-flex{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /*! position: relative; */
+        /*! top: 25px; */
+        margin-top: 25px;
+    }
+    #contatos {
+        margin: 0px 0px 10px 0px;
+    }
+    #contatos h3{
+        font-size: 2.3em;
+  
+    }
+    
+    
+ }
+
+@media (min-width: 768px) 
+{   header{
+    display: flex;
+    justify-content: space-around;
+    }
+    #menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: none;
+    height: 13vh;
+    align-items: flex-end;
+    }
+    #logo{
+        justify-content: flex-start;
+        position: relative;
+        bottom: 105px;
+    }
+     .logo{
+        width: 28vw;
+        right: 28px;
+        top: 0px;
+    }
+    .slide-container{
+        margin-top: -80px;
+    }
+}
+
+@media (min-width: 992px) 
+{   #menu{
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: 95%;
+    position: relative;
+    top: 19px;
+    }
+    .menu-list{
+    font-size: 1.6em;
+    }
+    .logo {
+    width: 25vw;
+    }
+    .slide-container{
+        margin-top: -110px;
+    }
+    .sobre-mim{
+        height: 86vh;
+    }
+    .sobre-mim-texto{
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 500;
+        width: 76%;
+        margin-top: 20px;
+    }
+    .sobre-mim-foto{
+        height: 91%;
+        /*! width: 84%; */
+    }
+
+}
+
+
+@media (min-width: 1200px) 
+{ .menu-list{
+    font-size: 1.8em;
+    }
+    .menu-list li{
+        padding: 0px 25px;
+    }
+    #logo{
+      bottom: 105px;
+    }
+    .logo{
+        width: 22vw;
+    }
+    #socialmedia{
+        justify-content: space-evenly;
+    }
+    #socialmedia div{
+        margin: 10px -60px;
+    }
+}
