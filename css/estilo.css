@@ -14,6 +14,8 @@
 }
    footer{
     height: 33vh;
+    position: relative;
+    top: 100px;
 }
      #menu{
     width: 100%;
@@ -74,7 +76,7 @@
     }
     .contatos p{
         padding-top: 10px;
-        font-size: 1.3em;
+        font-size: 1em;
 }
     #socialmedia {
         display: flex;
@@ -100,7 +102,10 @@
     }
     .menu-list li{
         padding: 15px;
-        font-size: 1em;
+        font-size: 1.2em;
+    }
+    .logo{
+        margin: 15px 0px 0px 0px;
     }
     .sobre-mim{
         height: 70vh;
@@ -111,7 +116,7 @@
     }
      .sobre-mim-texto{
         text-align: center;
-        font-size: 1.3em;
+        font-size: 1.1em;
         /*! font-weight: 500; */
         width: 100%;
         margin-top: 20px;
@@ -119,7 +124,7 @@
     }
     .sobre-mim-foto{
         margin: 1px auto 1px auto;
-        width: 75%;
+        width: 100%;
         /*! height: 100%; */
     }
     #img-flex{
@@ -129,6 +134,12 @@
         /*! position: relative; */
         /*! top: 25px; */
         margin-top: 25px;
+    }
+    footer{
+        top: 30px;
+    }
+    #contatos p{
+        font-size: 1.1em;
     }
     #contatos {
         margin: 0px 0px 10px 0px;
@@ -151,6 +162,7 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
+    top: 16px;
     background: none;
     height: 13vh;
     align-items: flex-end;
@@ -168,6 +180,12 @@
     .slide-container{
         margin-top: -80px;
     }
+    .sobre-mim-texto{
+        font-size: 1.5em;
+    }
+    footer{
+        top: 150px;
+    }
 }
 
 @media (min-width: 992px) 
@@ -178,10 +196,14 @@
     align-items: end;
     width: 95%;
     position: relative;
-    top: 19px;
+    top: 26px;
     }
     .menu-list{
     font-size: 1.6em;
+    }
+    #logo{
+        bottom: 
+    110px; 
     }
     .logo {
     width: 25vw;
@@ -193,22 +215,33 @@
         height: 86vh;
     }
     .sobre-mim-texto{
-        text-align: left;
-        font-size: 1.5em;
-        font-weight: 500;
-        width: 76%;
-        margin-top: 20px;
+       width: 67%;
+        position: relative;
+        top: 3%;
+        left: 20%;
+        font-size: 1.6em;
     }
     .sobre-mim-foto{
         height: 91%;
         /*! width: 84%; */
     }
-
+     #contatos h3{
+        font-size: 2.5em;
+        padding: 1%;
+    }
+    #contatos p{
+        font-size: 1.4em;
+    }
+    
 }
 
 
 @media (min-width: 1200px) 
-{ .menu-list{
+{ 
+    #menu{
+        align-items: center;
+    }
+    .menu-list{
     font-size: 1.8em;
     }
     .menu-list li{
@@ -220,10 +253,36 @@
     .logo{
         width: 22vw;
     }
+    .sobre-mim-foto{
+        width: 71%;
+    }
+    .sobre-mim-titulo{
+        padding: 20px;
+        font-size: 3em;
+    }
+    .sobre-mim-texto{
+        width: 67%;
+        position: relative;
+        top: 3%;
+        left: 20%;
+        font-size: 1.6em;
+    }
     #socialmedia{
         justify-content: space-evenly;
     }
     #socialmedia div{
         margin: 10px -60px;
+    }
+    
+    footer{
+        position: relative;
+        top: 150px;
+    }
+    #contatos h3{
+        font-size: 3em;
+        padding: 1%;
+    }
+    #contatos p{
+        font-size: 1.5em;
     }
 }
