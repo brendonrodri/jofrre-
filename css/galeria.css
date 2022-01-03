@@ -1,0 +1,25 @@
+header{
+    height: 25vh;
+}
+
+img {
+    width: 100%;
+}
+.row-2{
+    margin-top: 10px;
+}
+.col-mid{
+    display: flex;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding: 40px;
+}
+p{
+    text-align: center;
+}
+
+header{
+    display: none;
+}

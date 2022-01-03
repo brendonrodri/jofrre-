@@ -16,10 +16,19 @@
     <header>
         <nav id="menu">
             <ul class="menu-list">
-                <li>Início</li>
-                <li>Trabalhos</li>
-                <li>Contatos</li>
-                <li>Sobre</li>
+                <a href="#"><li>Início</li></a>
+                <a><li id="trab-dropdown" onclick="opendropdown()">Trabalhos</button>
+                
+                    <ul class="dropdown-list" id="dropdown-list" onmouseout="close()" >
+                       <a href="infantil.html"><li class="dropdown-itens">Infantil</li></a> 
+                       <a href="casamento.html"><li class="dropdown-itens">Casamentos</li></a> 
+                       <a href="casual.html"><li class="dropdown-itens">Casual</li></a> 
+                    </ul>
+                    </li> 
+                </a>
+                <a href="#contatos"><li>Contatos</li></a>
+                <a href="#sobre"><li>Sobre</li></a>
+                
             </ul>  
             
         </nav>
@@ -58,7 +67,7 @@
                   </div>
             </div>
         </section>
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
@@ -69,21 +78,12 @@
                     <div class="col-sm ">
                         
                         <p class="sobre-mim-texto">
-                        Eu sou o Vinicius Joffre, um
-                        carioca da gema de 24 anos. Bom eu
-                        comecei na fotografia em agosto de
-                        2019 sem pretensão de levar a essa
-                        profissão tão linda adiante. Mas
-                        quando dei por mim já estava fazendo
-                        ensaios, fotografando eventos e muito
-                        feliz por registrar esses momentos.
-                        Hoje a minha missão é registrar
-                        momentos únicos e inesquecíveis junto
-                        com você.
+                            Bom, eu sou o Vinicius Joffre, um carioca da gema de 24 anos. Comecei na fotografia em agosto de
+                            2019, sem pretensão de levar essa profissão tão linda adiante. Mas quando dei por mim já estava fazendo ensaios, fotografando eventos e muito feliz por registrar esses momentos.Hoje, minha missão é registrar momentos únicos e inesquecíveis junto com você.
                       </p>
                     </div>
                     <div class="col-sm " id="img-flex">
-                        <img class="sobre-mim-foto" src="img/IMG_0020.jpg">
+                        <img class="sobre-mim-foto" src="img/vinicius.jpg">
                     </div>
                     
                 </div>
@@ -117,5 +117,13 @@
             </div>
         </footer>
     </main>
+    <script>
+        function opendropdown(){
+            document.getElementById('dropdown-list').style.display= "flex";
+        }
+        function close(){
+            document.getElementById('dropdown-list').style.visibility="none";
+        }
+    </script>
 </body>
 </html>

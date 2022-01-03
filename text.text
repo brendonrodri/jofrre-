@@ -9,3 +9,78 @@ Muito Prazer! Eu sou o Vinicius Joffre, um
                 Hoje a minha missão é registrar
                 momentos únicos e inesquecíveis junto
                 com você.
+
+
+
+                 <div class="lbox" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
+        <div class="1box" id="img">
+            <div>
+                <a href="#img4" class="botao" id="prev">&#171;</a>
+                <a href="" class="botao" id="close">X</a>
+                <img src="img/fundo.jpg">
+                <a href="#img4" class="botao" id="next">&#171;</a>
+            </div>
+        </div>
