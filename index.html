@@ -1,109 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfólio de Fotografias">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius Joffre Fotografias</title>
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
-<body onclick="closedropdown()">
-    
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col" id="logo">
-                  <img  class="logo" src="img/LOGO-NOVO-2021-PRETO~1.png" alt="logo escrito vinicius joffre, com uma camera no fundo">
-                </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <nav id="menu">
-                  <ul class="menu-list">
-                      <a href="index.html"><li>Início</li></a>
-                        
-                      <li onmouseover="opendropdown()"   id="button" >Trabalhos
-                
-                        <ul class="dropdown-list" id="dropdown-list">
-                           <a href="infantil.html"><li>Infantil</li></a> 
-                           <a href="casual.html"><li>Casual</li></a> 
-                           <a href="casamento.html"><li>Casamentos</li></a> 
-                            
-                        </ul>
-                    
-                </li>
-                        
-                      <a href="#contatos"><li>Contatos</li></a>
-                      <a href="#sobre"><li>Sobre</li></a>
-                      
-                  </ul>  
-                  
-              </nav>
-              </div>
-              
-            
-            </div>
-            
-          </div>
-    </header>
-    <main>
-        <section>
-            <div class="slide-container">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/fundo.jpg" alt="Primeiro Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="img/fundo.jpg" alt="Segundo Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="img/fundo.jpg" alt="Terceiro Slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Próximo</span>
-                    </a>
-                  </div>
-            </div>
-        </section>
-        <section class="sobre-mim" id="sobre">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfólio de Fotografias">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vinicius Joffre Fotografias</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </head>
+    <body onclick="closedropdown()">  
+        <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="sobre-mim-titulo">
-                            Prazer, Vinicius
-                          </h2>
+                    <div class="col" id="logo">
+                    <img  class="logo" src="img/LOGO-NOVO-2021-PRETO~1.png" alt="logo escrito vinicius joffre, com uma camera no fundo">
                     </div>
-                    <div class="col-sm ">
-                        
-                        <p class="sobre-mim-texto">
-                            Bom, eu sou o Vinicius Joffre, um carioca da gema de 24 anos. Comecei na fotografia em agosto de
-                            2019, sem pretensão de levar essa profissão tão linda adiante. Mas quando dei por mim já estava fazendo ensaios, fotografando eventos e muito feliz por registrar esses momentos.Hoje, minha missão é registrar momentos únicos e inesquecíveis junto com você.
-                      </p>
-                    </div>
-                    <div class="col-sm " id="img-flex">
-                        <img class="sobre-mim-foto" src="img/vinicius.jpg">
-                    </div>
-                    
                 </div>
-                
+                <div class="row">
+                    <div class="col">
+                        <nav id="menu">
+                            <ul class="menu-list">
+                                <a href="index.html"><li>Início</li></a>           
+                                <li onmouseover="opendropdown()" id="button" >Trabalhos
+                                    <ul class="dropdown-list" id="dropdown-list">
+                                        <a href="infantil.html"><li>Infantil</li></a> 
+                                        <a href="casual.html"><li>Casual</li></a> 
+                                        <a href="casamento.html"><li>Casamentos</li></a>                               
+                                    </ul>      
+                                </li>                         
+                                <a href="contatos.html"><li>Contatos</li></a>
+                                <a href="#sobre"><li>Sobre</li></a>                      
+                            </ul>  
+                        </nav>
+                    </div>
+                </div>   
             </div>
-        </section>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slide-container">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="img/fundo.jpg" alt="Primeiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/fundo.jpg" alt="Segundo Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/fundo.jpg" alt="Terceiro Slide">
+                                    </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Próximo</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sobre-mim" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="sobre-mim-titulo">
+                                Prazer, Vinicius
+                            </h2>
+                        </div>
+                        <div class="col-sm ">
+                            <p class="sobre-mim-texto">
+                                Bom, eu sou o Vinicius Joffre, um carioca da gema de 24 anos. Comecei na fotografia em agosto de
+                                2019, sem pretensão de levar essa profissão tão linda adiante. Mas quando dei por mim já estava fazendo ensaios, fotografando eventos e muito feliz por registrar esses momentos.Hoje, minha missão é registrar momentos únicos e inesquecíveis junto com você.
+                            </p>
+                        </div>
+                        <div class="col-sm " id="img-flex">
+                            <img class="sobre-mim-foto" src="img/vinicius.jpg">
+                        </div>
+                    </div>   
+                </div>
+            </section>
+        </main>
         <footer>
             <div class="container">
                 <div class="row">
@@ -114,8 +107,7 @@
                         <p>
                             Clique em um dos ícones abaixo para entrar em contato!
                         </p>
-                    </div>
-                    
+                    </div>                      
                     <div class="col-sm-12" id="socialmedia">
                         <div id="instagram">
                             <a href="https:\\instagram.com/"><img src="img/icons8-instagram-96.png"></a>
@@ -130,15 +122,16 @@
                 </div>
             </div>
         </footer>
-    </main>
-    <script>
-        function opendropdown(){
-            document.getElementById('dropdown-list').style.display= "flex";
-            document.getElementById('dropdown-list').style.transition= "2s"
-        }
-        function closedropdown(){
-            document.getElementById('dropdown-list').style.display= "none";
-        }
-    </script>
-</body>
+        <script>
+            function opendropdown(){
+                document.getElementById('dropdown-list').style.display= "flex";
+                
+                
+            }
+            function closedropdown(){
+                document.getElementById('dropdown-list').style.display= "none";
+            }
+
+        </script>
+    </body>
 </html>

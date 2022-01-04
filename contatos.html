@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfólio de Fotografias">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vinicius Joffre Fotografias</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </head>
+    <body onclick="closedropdown()">  
+        <header id="header-contatos">
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="logo">
+                    <img  class="logo" src="img/LOGO-NOVO-2021-PRETO~1.png" alt="logo escrito vinicius joffre, com uma camera no fundo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <nav id="menu">
+                            <ul class="menu-list">
+                                <a href="index.html"><li>Início</li></a>           
+                                <li onmouseover="opendropdown()" id="button" >Trabalhos
+                                    <ul class="dropdown-list" id="dropdown-list">
+                                        <a href="infantil.html"><li>Infantil</li></a> 
+                                        <a href="casual.html"><li>Casual</li></a> 
+                                        <a href="casamento.html"><li>Casamentos</li></a>                               
+                                    </ul>      
+                                </li>                         
+                                <a href="#contatos"><li>Contatos</li></a>
+                                <a href="#sobre"><li>Sobre</li></a>                      
+                            </ul>  
+                        </nav>
+                    </div>
+                </div>   
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col contatos" id="contatos">
+                       
+                        <p>
+                            Clique em um dos ícones abaixo para entrar em contato!
+                        </p>
+                    </div>     
+                </div>                 
+                    <div class="container" id="socialmedia-contatos">
+                        
+                            
+                                <div class="social-media-contatos">
+                                    <a href="https:\\instagram.com/"><img src="img/icons8-instagram-96.png"></a>
+                                    <a href="https//:instagram.com/viniciusjoffre" class="contatos-link">instagram.com/vinicusjoffre</a>
+                                </div>
+                                <div class="social-media-contatos">
+                                    <a href="mailto:email@email.com"><img src="img/icons8-gmail-logo-120.png" width="93px"></a>
+                                    <a href="mailto:email@email.com" class="contatos-link">email@email.com</a>
+                                </div>
+                                <div class="social-media-contatos">
+                                    <a href="#"><img src="img/icons8-whatsapp-96.png"></a>
+                                    <a href="mailto:email@email.com" class="contatos-link">Tel: (21)99999-9999</a>
+                                </div>
+                            
+                        
+                            
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script>
+            function opendropdown(){
+                document.getElementById('dropdown-list').style.display= "flex";
+                
+                
+            }
+            function closedropdown(){
+                document.getElementById('dropdown-list').style.display= "none";
+            }
+
+        </script>
+    </body>
+</html>

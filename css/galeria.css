@@ -16,6 +16,8 @@ i
 .col-mid{
     display: flex;
     align-items: center;
+    
+    padding: 2px;
 }
 p{
     text-align: center;
