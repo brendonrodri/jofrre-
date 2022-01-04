@@ -1,44 +1,51 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-*{  margin: 0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Playfair Display', serif;
 }
-#header-contatos{
+
+#header-contatos {
     height: 44vh;
 }
-header{
+
+header {
     height: 40vw;
 }
-#trab-dropdown{
+
+#trab-dropdown {
     background: none;
 }
-#button{
+
+#button {
     background: none;
 }
-#dropdown-list li{
+
+#dropdown-list li {
     padding: 5px;
     margin: 5px;
 }
- #logo{
-      display: flex;
-      justify-content: center;
-    }
-    .logo{
-        width: 50vw;
-        padding: 30px;
-        padding-bottom: 0px;
-    }
-.dropdown-list{
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 50vw;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.dropdown-list {
     width: 24%;
     display: none;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     position: absolute;
     top: 103%;
     padding: 0;
@@ -50,136 +57,154 @@ header{
     border: 1px solid black;
     transition: 2s;
 }
-.dropdown-itens{
+
+.dropdown-itens {
     margin: 5px;
     padding: 0px;
 }
+
 a {
-    
     text-decoration: unset;
 }
+
 a:hover {
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
-li:hover{
+
+li:hover {
     font-weight: bold;
-    text-decoration-line:  underline;
+    text-decoration-line: underline;
 }
-li{
+
+li {
     font-weight: normal;
     color: #000;
 }
-.menu-list{
+
+.menu-list {
     display: flex;
-    
 }
-.dropdown{
+
+.dropdown {
     text-decoration: none;
     color: black;
     font-weight: normal;
     font-size: 1.2em;
 }
 
-   footer{
-    height: 33vh;
-    position: relative;
-    top: 100px;
+footer {
+    margin-top: 10%;
 }
-     #menu{
+
+#menu {
     width: 100%;
-    /*! position: fixed; */
     height: 5.5vh;
     background: #fff;
     z-index: 2;
     font-weight: 600;
     display: flex;
     justify-content: center;
-         border: 2px solid black;
-         border-left: 0px;
-         border-right: 0px;
-    
-    }
-   
-   
-    .menu-list li{
-        padding: 10px;
-    }
-    .slide-container{
-        margin-top: 30px;
-    }
-    .sobre-mim{
-        height: 90vh;
-        margin-left: 10px;
-    }
-    .sobre-mim-titulo{
-        text-align: center;
-        margin: 25px 0px ;
-    }
-    .sobre-mim-texto{
-        text-align: center;
-        /*! padding: 20px; */
-    }
-    #img-flex{
-        display: flex;
-        justify-content: center;
-    }
-    .sobre-mim-foto{
-        margin: 1px auto 1px auto;
-        width: 80%;
-    }
-    #contatos{
-        text-align: center;
-        padding: 10x 0px 10px 15px;
-        /*! margin: 10px; */
-    }
-    .contatos p{
-        padding-top: 10px;
-        font-size: 1em;
-}   
-#socialmedia-contatos{
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.slide-container {
+    margin-top: 30px;
+}
+
+.sobre-mim {
+    height: 90vh;
+    margin-left: 10px;
+}
+
+.sobre-mim-titulo {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.sobre-mim-texto {
+    text-align: center;
+}
+
+#img-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-mim-foto {
+    margin: 1px auto 1px auto;
+    width: 80%;
+}
+
+#contatos {
+    text-align: center;
+    padding: 10x 0px 10px 15px;
+}
+
+.contatos p {
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+#socialmedia-contatos {
     width: 100%;
     height: 60vh;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
 }
-    #socialmedia {
-        display: flex;
-        justify-content: space-around;
-    }
-    .social-media-contatos{
-        width: 27vw;
-    }  
-    .contatos-link{
-        font-size: 20px;
-    }
-.contatos-link:hover{
-    text-decoration: none;
-    font-weight:  normal;
+
+#socialmedia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
 }
 
+.social-media-contatos {
+    width: 27vw;
+}
 
+.contatos-link {
+    font-size: 20px;
+}
 
-@media (min-width: 576px) 
-{   
-    #menu{
-    /*! width: 100%; */
-    display: flex;
-    justify-content: center;
-    /*! position: relative; */
-    /*! top: 16px; */
-    background: none;
-    height: 8vh;
-    align-items: center;}
-    .dropdown-list{
+.contatos-link:hover {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#instagram,
+#email,
+#wpp {
+    width: 14vw;
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+@media (min-width: 576px) {
+    #menu {
+        display: flex;
+        justify-content: center;
+        background: none;
+        height: 8vh;
+        align-items: center;
+    }
+    .dropdown-list {
         font-size: 0.6em;
         top: 70px;
         left: 114px;
         border: 1px solid black;
     }
-    .menu-list{
+    .menu-list {
         font-size: 22px;
         display: flex;
         justify-content: center;
@@ -187,22 +212,21 @@ li{
         top: 10px;
         margin-right: 15px;
     }
-    .menu-list li{
+    .menu-list li {
         padding: 15px;
         font-size: 1.2em;
     }
-    .logo{
+    .logo {
         width: 40vw;
     }
-   
-    .sobre-mim{
+    .sobre-mim {
         height: 70vh;
         margin-top: 25px;
     }
-    .sobre-mim-titulo{
+    .sobre-mim-titulo {
         font-size: 2.5em;
     }
-     .sobre-mim-texto{
+    .sobre-mim-texto {
         text-align: center;
         font-size: 1.1em;
         /*! font-weight: 500; */
@@ -210,188 +234,179 @@ li{
         margin-top: 20px;
         height: 100%;
     }
-    .sobre-mim-foto{
+    .sobre-mim-foto {
         margin: 1px auto 1px auto;
         width: 100%;
-        /*! height: 100%; */
     }
-    #img-flex{
+    #img-flex {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        /*! position: relative; */
-        /*! top: 25px; */
         margin-top: 25px;
     }
-    footer{
-        top: 30px;
+    footer {
+        margin-top: 0;
     }
-    #contatos p{
+    #socialmedia {
+        margin-top: -10%;
+    }
+    #contatos p {
         font-size: 1.1em;
     }
     #contatos {
         margin: 0px 0px 10px 0px;
     }
-    #contatos h3{
+    #contatos h3 {
         font-size: 2.3em;
-  
     }
-    
-    
- }
+}
 
-@media (min-width: 768px) 
-{   header{
-    display: flex;
-    justify-content: space-around;
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-around;
     }
-    #menu{
-    /*! width: 100%; */
-    display: flex;
-    justify-content: center;
-    /*! position: relative; */
-    /*! top: 16px; */
-    background: none;
-    height: 8vh;
-    align-items: center;
-    
+    #menu {
+        display: flex;
+        justify-content: center;
+        background: none;
+        height: 8vh;
+        align-items: center;
     }
-    .dropdown-list{
+    .dropdown-list {
         font-size: 0.6em;
         top: 85px;
         left: 114px;
         border: 1px solid black;
     }
-    .logo{
-       width: 27vw;
+    .logo {
+        width: 27vw;
     }
-    
-    .slide-container{
+    .slide-container {
         margin-top: -80px;
     }
-    .sobre-mim-texto{
+    .sobre-mim-texto {
         font-size: 1.5em;
     }
-    footer{
-        top: 150px;
+    footer {
+        margin-top: 14%;
     }
 }
 
-@media (min-width: 992px) 
-{   header{
-    height: 50vh;
+@media (min-width: 992px) {
+    header {
+        height: 50vh;
     }
-    #menu{
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    /*! align-items: end; */
-    /*! width: 95%; */
-    /*! position: relative; */
-    /*! top: 26px; */
+    #menu {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
     }
-    .dropdown-list{
+    .dropdown-list {
         font-size: 0.6em;
         top: 86px;
         left: 130px;
         border: 1px solid black;
     }
-    .logo{
+    .logo {
         width: 24vw
     }
-    .menu-list{
-    font-size: 1.6em;
-    }
-    
-    .slide-container{
-        margin-top: -110px;
-    }
-    .sobre-mim{
-        height: 86vh;
-    }
-    .sobre-mim-texto{
-       width: 67%;
-        position: relative;
-        top: 3%;
-        left: 20%;
+    .menu-list {
         font-size: 1.6em;
     }
-    .sobre-mim-foto{
-        height: 91%;
-        /*! width: 84%; */
+    .slide-container {
+        margin-top: -110px;
     }
-     #contatos h3{
-        font-size: 2.5em;
-        padding: 1%;
+    .sobre-mim {
+        height: 86vh;
     }
-    #contatos p{
-        font-size: 1.4em;
-    }
-    
-}
-
-
-@media (min-width: 1200px) 
-{ 
-    header{
-       height: 66vh;
-    }
-    #menu{
-     
-    position: relative;
-    
-    }
-    .menu-list{
-    font-size: 1.8em;
-    }
-    .menu-list li{
-        padding: 0px 25px;
-    }
-    .dropdown-list{
-        font-size: 0.6em;
-        top: 66px;
-        left: 160px;
-        border: 1px solid black;
-    }
-    #logo{
-      display: flex;
-      justify-content: center;
-    }
-    .logo{
-        width: 22vw;
-        padding: 40px;
-        padding-bottom: 0px;
-    }
-    .sobre-mim-foto{
-        width: 71%;
-    }
-    .sobre-mim-titulo{
-        padding: 20px;
-        font-size: 3em;
-    }
-    .sobre-mim-texto{
+    .sobre-mim-texto {
         width: 67%;
         position: relative;
         top: 3%;
         left: 20%;
         font-size: 1.6em;
     }
-    #socialmedia{
-        justify-content: space-evenly;
+    .sobre-mim-foto {
+        height: 91%;
     }
-    #socialmedia div{
+    #contatos h3 {
+        font-size: 2.5em;
+        padding: 1%;
+    }
+    #contatos p {
+        font-size: 1.4em;
+    }
+    #instagram,
+    #email,
+    #wpp {
+        width: 10vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        height: 65vh;
+    }
+    #menu {
+        position: relative;
+    }
+    .menu-list {
+        font-size: 1.8em;
+    }
+    .menu-list li {
+        padding: 0px 25px;
+    }
+    .dropdown-list {
+        font-size: 0.6em;
+        top: 66px;
+        left: 160px;
+        border: 1px solid black;
+    }
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 22vw;
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+    .sobre-mim-foto {
+        width: 71%;
+    }
+    .sobre-mim-titulo {
+        padding: 20px;
+        font-size: 3em;
+    }
+    .sobre-mim-texto {
+        width: 67%;
+        position: relative;
+        top: 3%;
+        left: 20%;
+        font-size: 1.6em;
+    }
+    #socialmedia {
+        justify-content: space-evenly;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    #socialmedia div {
         margin: 10px -60px;
     }
-    
-    footer{
-        position: relative;
-        top: 150px;
+    footer {
+        margin-top: 13%;
     }
-    #contatos h3{
+    #contatos h3 {
         font-size: 3em;
         padding: 1%;
     }
-    #contatos p{
+    #contatos p {
         font-size: 1.5em;
+    }
+    #instagram,
+    #email,
+    #wpp {
+        width: 8vw;
     }
 }
