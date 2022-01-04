@@ -167,6 +167,12 @@ footer {
     margin-top: 5%;
 }
 
+#socialmedia-index {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
 .social-media-contatos {
     width: 27vw;
 }
@@ -249,6 +255,9 @@ footer {
     }
     #socialmedia {
         margin-top: -10%;
+    }
+    #socialmedia-index {
+        margin-top: 0%;
     }
     #contatos p {
         font-size: 1.1em;
@@ -394,8 +403,12 @@ footer {
     #socialmedia div {
         margin: 10px -60px;
     }
+    #socialmedia-index {
+        justify-content: space-evenly;
+        margin-top: 0%;
+    }
     footer {
-        margin-top: 13%;
+        /*! margin-top: 5%; */
     }
     #contatos h3 {
         font-size: 3em;
