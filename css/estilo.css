@@ -9,6 +9,9 @@
     list-style: none;
     font-family: 'Playfair Display', serif;
 }
+header{
+    height: 40vw;
+}
 #trab-dropdown{
     background: none;
 }
@@ -19,17 +22,30 @@
     padding: 5px;
     margin: 5px;
 }
+ #logo{
+      display: flex;
+      justify-content: center;
+    }
+    .logo{
+        width: 50vw;
+        padding: 30px;
+        padding-bottom: 0px;
+    }
 .dropdown-list{
+    width: 24%;
     display: none;
     flex-direction: column;
-   align-items: flex-start;
-    font-size: 0.6em;
+   align-items: center;
     position: absolute;
-    top: 50px;
+    top: 103%;
     padding: 0;
     margin: 0;
     z-index: 1;
     background: white;
+    font-size: 0.9em;
+    right: 48%;
+    border: 1px solid black;
+    transition: 2s;
 }
 .dropdown-itens{
     margin: 5px;
@@ -46,7 +62,7 @@ a:hover {
 }
 li:hover{
     font-weight: bold;
-    text-decoration: none;
+    text-decoration-line:  underline;
 }
 li{
     font-weight: normal;
@@ -62,10 +78,7 @@ li{
     font-weight: normal;
     font-size: 1.2em;
 }
-.dropdown:hover a{
-    text-decoration: none;
-    color: black;
-}
+
    footer{
     height: 33vh;
     position: relative;
@@ -73,30 +86,20 @@ li{
 }
      #menu{
     width: 100%;
-    position: fixed;
+    /*! position: fixed; */
     height: 5.5vh;
     background: #fff;
     z-index: 2;
     font-weight: 600;
     display: flex;
     justify-content: center;
+         border: 2px solid black;
+         border-left: 0px;
+         border-right: 0px;
     
     }
-    #logo{
-    display: flex;
-    justify-content: center;
-    
-    /*! align-items: flex-start; */
-    /*! position: relative; */
-    /*! bottom: 101px; */
-}
-    .logo{
-        width: 50vw;
-        padding: 10px;
-        position: relative;
-        top: 35px;
-        
-    }
+   
+   
     .menu-list li{
         padding: 10px;
     }
@@ -126,7 +129,7 @@ li{
     #contatos{
         text-align: center;
         padding: 10x 0px 10px 15px;
-        margin: 10px;
+        /*! margin: 10px; */
     }
     .contatos p{
         padding-top: 10px;
@@ -145,7 +148,22 @@ li{
 
 
 @media (min-width: 576px) 
-{
+{   
+    #menu{
+    /*! width: 100%; */
+    display: flex;
+    justify-content: center;
+    /*! position: relative; */
+    /*! top: 16px; */
+    background: none;
+    height: 8vh;
+    align-items: center;}
+    .dropdown-list{
+        font-size: 0.6em;
+        top: 70px;
+        left: 114px;
+        border: 1px solid black;
+    }
     .menu-list{
         font-size: 22px;
         display: flex;
@@ -159,8 +177,9 @@ li{
         font-size: 1.2em;
     }
     .logo{
-        margin: 15px 0px 0px 0px;
+        width: 40vw;
     }
+   
     .sobre-mim{
         height: 70vh;
         margin-top: 25px;
@@ -212,25 +231,26 @@ li{
     justify-content: space-around;
     }
     #menu{
-    width: 100%;
+    /*! width: 100%; */
     display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 16px;
+    justify-content: center;
+    /*! position: relative; */
+    /*! top: 16px; */
     background: none;
-    height: 13vh;
-    align-items: flex-end;
+    height: 8vh;
+    align-items: center;
+    
     }
-    #logo{
-        justify-content: flex-start;
-        position: relative;
-        bottom: 105px;
+    .dropdown-list{
+        font-size: 0.6em;
+        top: 85px;
+        left: 114px;
+        border: 1px solid black;
     }
-     .logo{
-        width: 28vw;
-        right: 28px;
-        top: 0px;
+    .logo{
+       width: 27vw;
     }
+    
     .slide-container{
         margin-top: -80px;
     }
@@ -243,25 +263,31 @@ li{
 }
 
 @media (min-width: 992px) 
-{   #menu{
-    height: 12vh;
+{   header{
+    height: 50vh;
+    }
+    #menu{
+    height: 10vh;
     display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    width: 95%;
-    position: relative;
-    top: 26px;
+    justify-content: center;
+    /*! align-items: end; */
+    /*! width: 95%; */
+    /*! position: relative; */
+    /*! top: 26px; */
+    }
+    .dropdown-list{
+        font-size: 0.6em;
+        top: 86px;
+        left: 130px;
+        border: 1px solid black;
+    }
+    .logo{
+        width: 24vw
     }
     .menu-list{
     font-size: 1.6em;
     }
-    #logo{
-        bottom: 
-    110px; 
-    }
-    .logo {
-    width: 25vw;
-    }
+    
     .slide-container{
         margin-top: -110px;
     }
@@ -292,8 +318,13 @@ li{
 
 @media (min-width: 1200px) 
 { 
+    header{
+       height: 66vh;
+    }
     #menu{
-        align-items: center;
+     
+    position: relative;
+    
     }
     .menu-list{
     font-size: 1.8em;
@@ -301,11 +332,20 @@ li{
     .menu-list li{
         padding: 0px 25px;
     }
+    .dropdown-list{
+        font-size: 0.6em;
+        top: 66px;
+        left: 160px;
+        border: 1px solid black;
+    }
     #logo{
-      bottom: 105px;
+      display: flex;
+      justify-content: center;
     }
     .logo{
         width: 22vw;
+        padding: 40px;
+        padding-bottom: 0px;
     }
     .sobre-mim-foto{
         width: 71%;

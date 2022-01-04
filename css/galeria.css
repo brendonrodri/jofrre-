@@ -1,9 +1,7 @@
-header{
-    height: 25vh;
-}
 
 img {
     width: 100%;
+    margin-top: 10px;
 }
 .row-2{
     margin-top: 10px;
@@ -12,14 +10,52 @@ img {
     display: flex;
     align-items: center;
 }
-h1{
-    text-align: center;
-    padding: 40px;
-}
 p{
     text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 30px;
 }
 
-header{
+#gallery{
     display: none;
+}
+
+@media (min-width: 576px) 
+{
+
+    p{
+        font-size: 1.1em;
+    }
+}@media (min-width: 768px) 
+{
+    header{
+        height: 28vh;
+    }
+   
+    #gallery{
+        display: none;
+    }
+}@media (min-width: 992px) 
+{
+    header{
+        height: 30vh;
+    }
+    #gallery-sm{
+        display: none;
+    }
+    #gallery{
+        display: block;
+    }
+}@media (min-width: 1200px) 
+{
+    header{
+        height: 33vh;
+    }
+    #gallery-sm{
+        display: none;
+    }
+    #gallery{
+        display: block;
+    }
 }
