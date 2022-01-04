@@ -2,7 +2,14 @@
 img {
     width: 100%;
     margin-top: 10px;
+    z-index: 1;
 }
+
+img:hover{
+    transform: scale(1.1);
+
+}
+i
 .row-2{
     margin-top: 10px;
 }
@@ -50,7 +57,7 @@ p{
 }@media (min-width: 1200px) 
 {
     header{
-        height: 33vh;
+        height: 39vh;
     }
     #gallery-sm{
         display: none;
