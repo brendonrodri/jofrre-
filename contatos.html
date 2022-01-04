@@ -28,7 +28,7 @@
                             <a href="index.html">
                                 <li>Início</li>
                             </a>
-                            <li onmouseover="opendropdown()" id="button">Trabalhos
+                            <li id="dropdownopen">Trabalhos
                                 <ul class="dropdown-list" id="dropdown-list">
                                     <a href="infantil.html">
                                         <li>Infantil</li>
@@ -87,13 +87,30 @@
     </main>
 
     <script>
-        function opendropdown() {
-            document.getElementById('dropdown-list').style.display = "flex";
-        }
-
         function closedropdown() {
             document.getElementById('dropdown-list').style.display = "none";
         }
+        var botao = document.getElementById('dropdownopen');
+        botao.addEventListener('touchstart', function opendropdown() {
+            document.getElementById('dropdown-list').style.display = "flex";
+
+
+        })
+        botao.addEventListener('', function opendropdown() {
+            document.getElementById('dropdown-list').style.display = "none";
+
+
+        })
+        botao.addEventListener('pointerenter', function opendropdown() {
+            document.getElementById('dropdown-list').style.display = "flex";
+
+
+        })
+        botao.addEventListener('pointerout', function opendropdown() {
+            document.getElementById('dropdown-list').style.display = "flex";
+
+
+        })
     </script>
 </body>
 
