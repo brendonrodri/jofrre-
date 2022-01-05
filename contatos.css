@@ -1,0 +1,51 @@
+
+#socialmedia-contatos {
+    margin-top: 10%
+}
+
+#contatos {
+    margin-top: 10%;
+}
+
+#instagram,
+#email,
+#wpp {
+    width: 20vw;
+}
+@media (min-width: 576px)
+{
+    #instagram,
+#wpp,#email {
+  
+    padding: 10px
+}
+}
+@media (min-width: 768px) {
+    .social-media-contatos img {
+        width: 15vw;
+    }
+    .contatos-link {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    #instagram,
+#wpp,#email {
+    width: 15vw;
+    padding: 10px
+}
+    .dropdown-list {
+  font-size: 0.6em;
+  top: 70px;
+  left: 114px;
+  border: 1px solid black;
+}
+      
+}
+ @media (min-width: 1200px)
+    {
+        #instagram,
+#wpp,#email {
+    width: 10vw;
+    padding: 10px
+}
+    }

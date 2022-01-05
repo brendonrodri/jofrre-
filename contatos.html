@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinicius Joffre Fotografias</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="contatos.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -59,7 +60,7 @@
                 <div class="col contatos" id="contatos">
 
                     <p>
-                        Clique em um dos ícones abaixo para entrar em contato!
+                        Se chegou até aqui, meu trabalho provavelmente agradou você, então entre em contato, vamos conversar um pouco!
                     </p>
                 </div>
             </div>
@@ -67,15 +68,15 @@
 
 
                 <div class="social-media-contatos">
-                    <a href="https:\\instagram.com/"><img src="img/icons8-instagram-96.png"></a>
+                    <a href="https:\\instagram.com/"><img id="instagram" src="img/icons8-instagram-96.png"></a>
                     <a href="https//:instagram.com/viniciusjoffre" class="contatos-link">instagram.com/vinicusjoffre</a>
                 </div>
                 <div class="social-media-contatos">
-                    <a href="mailto:email@email.com"><img src="img/icons8-gmail-logo-120.png" width="93px"></a>
+                    <a href="mailto:email@email.com"><img id="email" src="img/icons8-gmail-logo-120.png" width="93px"></a>
                     <a href="mailto:email@email.com" class="contatos-link">email@email.com</a>
                 </div>
                 <div class="social-media-contatos">
-                    <a href="#"><img src="img/icons8-whatsapp-96.png"></a>
+                    <a href="#"><img id="wpp" src="img/icons8-whatsapp-96.png"></a>
                     <a href="mailto:email@email.com" class="contatos-link">Tel: (21)99999-9999</a>
                 </div>
 
@@ -102,11 +103,6 @@
 
         })
         botao.addEventListener('pointerenter', function opendropdown() {
-            document.getElementById('dropdown-list').style.display = "flex";
-
-
-        })
-        botao.addEventListener('pointerout', function opendropdown() {
             document.getElementById('dropdown-list').style.display = "flex";
 
 

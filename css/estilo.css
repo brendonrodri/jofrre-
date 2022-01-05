@@ -10,7 +10,7 @@
 }
 
 #header-contatos {
-    height: 44vh;
+    height: 20vh;
 }
 
 header {
@@ -120,7 +120,7 @@ footer {
 }
 
 .sobre-mim {
-    height: 90vh;
+    height: 94vh;
     margin-left: 10px;
 }
 
@@ -155,16 +155,17 @@ footer {
 
 #socialmedia-contatos {
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     flex-direction: column;
     display: flex;
     justify-content: space-around;
 }
 
 #socialmedia {
-    display: flex;
+    display: none;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 7%;
+    margin-bottom: 8%;
 }
 
 #socialmedia-index {
@@ -174,12 +175,13 @@ footer {
 }
 
 .social-media-contatos {
-    width: 27vw;
+    width: 100%;
 }
 
 .contatos-link {
-    font-size: 20px;
+    font-size: 1em;
 }
+
 
 .contatos-link:hover {
     text-decoration: none;
@@ -226,7 +228,7 @@ footer {
         width: 40vw;
     }
     .sobre-mim {
-        height: 70vh;
+        height: 75vh;
         margin-top: 25px;
     }
     .sobre-mim-titulo {
@@ -304,7 +306,7 @@ footer {
 
 @media (min-width: 992px) {
     header {
-        height: 50vh;
+        height: 53vh;
     }
     #menu {
         height: 10vh;
@@ -327,7 +329,7 @@ footer {
         margin-top: -110px;
     }
     .sobre-mim {
-        height: 86vh;
+        height: 85vh;
     }
     .sobre-mim-texto {
         width: 67%;
@@ -354,6 +356,8 @@ footer {
 }
 
 @media (min-width: 1200px) {
+    #header-contatos{
+        height: 25vh;}
     header {
         height: 65vh;
     }
@@ -408,7 +412,7 @@ footer {
         margin-top: 0%;
     }
     footer {
-        /*! margin-top: 5%; */
+        margin-top: 15%;
     }
     #contatos h3 {
         font-size: 3em;
